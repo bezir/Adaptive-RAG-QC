@@ -1,0 +1,99 @@
+# METADATA: {"qid": "5a835abe5542996488c2e426"}
+Vertical Limit
+Vertical Limit is a 2000 American survival thriller film directed by Martin Campbell, written by Robert King, and starring Chris O'Donnell, Bill Paxton, Robin Tunney, and Scott Glenn.
+
+Scott Glenn
+Theodore Scott Glenn (born January 26, 1941) is an American actor. His roles have included Wes Hightower in "Urban Cowboy" (1980), astronaut Alan Shepard in "The Right Stuff" (1983), and Jack Crawford in "The Silence of the Lambs" (1991).
+
+Q: Answer the following question by reasoning step-by-step.
+Vertical Limit stars which actor who also played astronaut Alan Shepard in "The Right Stuff"?
+A: I need to identify which actor from Vertical Limit also played astronaut Alan Shepard in "The Right Stuff." From the context, Vertical Limit stars Chris O'Donnell, Bill Paxton, Robin Tunney, and Scott Glenn. Looking at Scott Glenn's roles, he played "astronaut Alan Shepard in 'The Right Stuff' (1983)." Therefore, Scott Glenn is the actor from Vertical Limit who also played astronaut Alan Shepard. So the answer is: Scott Glenn.
+
+
+# METADATA: {"qid": "5a89d58755429946c8d6e9d9"}
+The Border Surrender
+The Border Surrender are an English rock band formed in 2007. The band members are Keith Austin (vocals and guitar), Simon Shields (vocals, guitar, bass guitar and mandolin), Johnny Manning (keyboards, melodica, glockenspiel & accordion) and Mark Austin (drums and vocals).
+
+Unsane
+Unsane is an influential noise rock trio that formed in New York City in 1988. The band consists of Chris Spencer (vocals, guitar), Dave Curran (bass), and Vinny Signorelli (drums).
+
+Q: Answer the following question by reasoning step-by-step.
+Does The Border Surrender or Unsane have more members?
+A: I need to count the members of each band. The Border Surrender has Keith Austin, Simon Shields, Johnny Manning, and Mark Austin - that's 4 members. Unsane is described as a "trio" with Chris Spencer, Dave Curran, and Vinny Signorelli - that's 3 members. Comparing 4 members vs 3 members, The Border Surrender has more. So the answer is: The Border Surrender.
+
+
+# METADATA: {"qid": "enhanced_hotpot_comparison"}
+Television Series Analysis
+Television series analysis requires careful examination of episode counts, production details, and cast information.
+
+Reply 1988
+Reply 1988 is a South Korean television series that aired for 20 episodes from November 6, 2015, to January 16, 2016. The series starred Lee Hye-ri, Park Bo-gum, Go Kyung-pyo, Ryu Jun-yeol, and Ryu Hye-young.
+
+Q: Answer the following question by reasoning step-by-step.
+How many episodes were in the South Korean television series in which Ryu Hye-young played Bo-ra?
+A: I need to identify which series Ryu Hye-young played Bo-ra in, then find the episode count. From the cast information, Ryu Hye-young was in Reply 1988. The context states that Reply 1988 "aired for 20 episodes from November 6, 2015, to January 16, 2016." Therefore, the series had 20 episodes. So the answer is: 20.
+
+
+# METADATA: {"qid": "enhanced_birth_comparison"}
+Film Director Comparison
+Film director birth date comparison requires accurate chronological analysis.
+
+Jan de Bont
+Jan de Bont (born 22 October 1943) is a Dutch cinematographer, director and film producer best known for directing "Speed" (1994) and "Twister" (1996).
+
+Raoul Walsh
+Raoul A. Walsh (March 11, 1887 – December 31, 1980) was an American film director, actor, and founding member of the Academy of Motion Picture Arts and Sciences.
+
+Q: Answer the following question by reasoning step-by-step.
+Who was born first? Jan de Bont or Raoul Walsh?
+A: I need to compare birth dates. Jan de Bont was born on "22 October 1943" and Raoul Walsh was born on "March 11, 1887." Since 1887 comes before 1943, Raoul Walsh was born first. So the answer is: Raoul Walsh.
+
+
+# METADATA: {"qid": "enhanced_geography"}
+Geographic Knowledge
+Geographic knowledge involves understanding countries, borders, and international relationships.
+
+Cambodia
+Cambodia, officially known as the Kingdom of Cambodia, is a country located in the southern portion of the Indochina peninsula in Southeast Asia.
+
+National Route 13 (Vietnam)
+National Route 13 is a highway in southern Vietnam stretching from the northeastern outskirts of Ho Chi Minh City towards the border to Cambodia.
+
+Q: Answer the following question by reasoning step-by-step.
+What is known as the Kingdom and has National Route 13 stretching towards its border?
+A: I need to identify what is known as "the Kingdom" and has National Route 13 stretching towards its border. Cambodia is "officially known as the Kingdom of Cambodia." National Route 13 "stretches...towards the border to Cambodia." Therefore, Cambodia is known as the Kingdom and has National Route 13 stretching towards its border. So the answer is: Cambodia.
+
+
+# METADATA: {"qid": "enhanced_music_debut"}
+Music Industry Analysis
+Music industry analysis involves examining band histories, album releases, and debut records.
+
+Hot Hot Heat
+Hot Hot Heat was a Canadian indie rock band. The band released its first full-length album, "Make Up the Breakdown," in 2002.
+
+The Operation M.D.
+The Operation M.D. was a Canadian punk rock band created as a side project. The band's debut album "We Have an Emergency" was released in February 2007.
+
+Q: Answer the following question by reasoning step-by-step.
+Which of the following had a debut album entitled "We Have an Emergency": Hot Hot Heat or The Operation M.D.?
+A: I need to identify which band had "We Have an Emergency" as their debut album. Hot Hot Heat's first full-length album was "Make Up the Breakdown," not "We Have an Emergency." The Operation M.D.'s debut album was "We Have an Emergency," released in February 2007. Therefore, The Operation M.D. had the debut album titled "We Have an Emergency." So the answer is: The Operation M.D.
+
+
+# METADATA: {"qid": "unanswerable_hotpot_enhanced"}
+Actor Information
+Actor information typically includes professional roles, filmography, and career highlights.
+
+Jeremy Theobald
+Jeremy Theobald is a British actor best known for his portrayal of "The Young Man" in Christopher Nolan's debut film "Following" (1998).
+
+Q: Answer the following question by reasoning step-by-step.
+What is the birth year of Jeremy Theobald's spouse?
+A: I need information about Jeremy Theobald's spouse and their birth year. The context only provides Jeremy Theobald's professional information as an actor, specifically his role in "Following." There is no information about his personal life, spouse, or any related birth years. Without this information, I cannot answer the question. So the answer is: I cannot find sufficient information to answer this question.
+
+
+# METADATA: {"qid": "actual_question"}
+{context}
+
+Q: Answer the following question by reasoning step-by-step.
+{question}
+A: 

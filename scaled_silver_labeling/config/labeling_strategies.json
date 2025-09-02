@@ -1,0 +1,62 @@
+{
+  "original": {
+    "description": "Original silver labeling: NOR → ONER → IRCOT priority with all systems running",
+    "systems": ["nor_qa", "oner_qa", "ircot_qa"],
+    "priority": ["nor_qa", "oner_qa", "ircot_qa"],
+    "label_assignment": {
+      "nor_qa_success": "A",
+      "oner_qa_success": "B", 
+      "ircot_qa_success": "C",
+      "all_fail": "dataset_bias"
+    },
+    "dataset_bias_labels": {
+      "nq": "B",
+      "trivia": "B",
+      "squad": "B",
+      "hotpotqa": "C",
+      "2wikimultihopqa": "C",
+      "musique": "C"
+    },
+    "run_all_systems": true,
+    "early_stopping": false
+  },
+  "optimized": {
+    "description": "Optimized silver labeling: Smart system selection based on dataset characteristics",
+    "single_hop_datasets": ["nq", "trivia", "squad"],
+    "multi_hop_datasets": ["hotpotqa", "2wikimultihopqa", "musique"],
+    "system_selection": {
+      "single_hop": {
+        "systems": ["nor_qa"],
+        "label_assignment": {
+          "nor_qa_success": "A",
+          "nor_qa_fail": "B"
+        }
+      },
+      "multi_hop": {
+        "systems": ["nor_qa", "oner_qa"],
+        "label_assignment": {
+          "nor_qa_success": "A",
+          "oner_qa_success": "B",
+          "both_fail": "C"
+        }
+      }
+    },
+        "run_all_systems": false,
+    "early_stopping": true
+  },
+  "evaluation_criteria": {
+    "answer_matching": {
+      "exact_match": true,
+      "normalize_text": true,
+      "ignore_case": true,
+      "remove_punctuation": true
+    }
+  },
+  "logging": {
+    "log_predictions": true,
+    "log_retrieval": true,
+    "log_timing": true,
+    "log_system_selection": true,
+    "detailed_errors": true
+  }
+} 

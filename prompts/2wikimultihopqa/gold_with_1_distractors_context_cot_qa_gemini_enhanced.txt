@@ -1,0 +1,129 @@
+# METADATA: {"qid": "2hop__292995_8796"}
+Wikipedia Title: Life on a Thread
+Life on a Thread (Spanish:La vida en un hilo) is a 1945 Spanish comedy film written, directed and produced by Edgar Neville.
+
+Wikipedia Title: Southampton
+The University of Southampton, which was founded in 1862 and received its Royal Charter as a university in 1952, has over 22,000 students.
+
+Wikipedia Title: Neville A. Stanton
+Neville A. Stanton is a British Professor of Human Factors and Ergonomics at the University of Southampton.
+
+Q: Answer the following question by reasoning step-by-step.
+When was Neville A. Stanton's employer founded?
+A: I need to identify who Neville A. Stanton's employer is first.
+
+# METADATA: {"qid": "2hop__154225_727337"}
+Wikipedia Title: University of Southampton
+The University of Southampton, which was founded in 1862 and received its Royal Charter as a university in 1952, has over 22,000 students. The university is ranked in the top 100 research universities in the world.
+
+Q: Continue reasoning step-by-step. ANALYZE the retrieved context carefully - do NOT restate the question. Build logical connections from the information.
+A: From the previous information, I found that Neville A. Stanton works at the University of Southampton. The new context confirms that "The University of Southampton, which was founded in 1862" - this directly answers the question. So the answer is: 1862.
+
+
+# METADATA: {"qid": "2hop__292995_8796_enhanced"}
+Wikipedia Title: Hypocrite (film)
+Hypocrite (Spanish: Hipócrita..!) is a 1949 Mexican thriller film directed by Miguel Morayta starring Rosario Granados and Julián Soler.
+
+Wikipedia Title: Science Fiction Films
+Science fiction films have gained popularity in recent years, with many exploring complex scientific concepts through engaging storytelling.
+
+Q: Answer the following question by reasoning step-by-step.
+When did the director of film Hypocrite (Film) die?
+A: I need to find out who directed the film Hypocrite first.
+
+# METADATA: {"qid": "2hop__292995_8796_enhanced_step2"}
+Wikipedia Title: Miguel Morayta
+Miguel Morayta (15 August 1907 – 19 June 2013) was a Spanish film director and screenwriter who worked primarily in Mexican cinema. He directed over 70 films during his career spanning from the 1940s to the 1980s.
+
+Q: Continue reasoning step-by-step. ANALYZE the retrieved context carefully - do NOT restate the question. Build logical connections from the information.
+A: From the previous information, I found that Hypocrite was directed by Miguel Morayta. The new context confirms that Miguel Morayta lived from "15 August 1907 – 19 June 2013," which directly provides his death date. So the answer is: 19 June 2013.
+
+
+# METADATA: {"qid": "comparison_nationality_example"}
+Wikipedia Title: Coolie No. 1 (1995 film)
+Coolie No. 1 is a 1995 Indian Hindi-language comedy film directed by David Dhawan starring Govinda and Karisma Kapoor in lead roles.
+
+Wikipedia Title: The Sensational Trial
+The Sensational Trial is a 1923 German silent film directed by Karl Freund. It was part of the German Expressionist movement in cinema.
+
+Q: Answer the following question by reasoning step-by-step.
+Do director of film Coolie No. 1 (1995 Film) and director of film The Sensational Trial have the same nationality?
+A: I need to identify the directors of both films first.
+
+# METADATA: {"qid": "comparison_nationality_example_step2"}
+Wikipedia Title: David Dhawan
+David Dhawan (born Rajinder Dhawan on 16 August 1955) is an Indian film director who works in Hindi films. He has directed over 40 films and is known for his comedy films.
+
+Wikipedia Title: Karl Freund
+Karl W. Freund, A.S.C. (January 16, 1890 – May 3, 1969) was a German cinematographer and film director best known for his pioneering work in the early days of cinema.
+
+Q: Continue reasoning step-by-step. ANALYZE the retrieved context carefully - do NOT restate the question. Build logical connections from the information.
+A: From the previous information, I found that Coolie No. 1 was directed by David Dhawan and The Sensational Trial was directed by Karl Freund. The new context shows that David Dhawan is Indian ("an Indian film director") while Karl Freund was German ("was a German cinematographer and film director"). Since India and Germany are different countries, they do not have the same nationality. So the answer is: no.
+
+
+# METADATA: {"qid": "location_comparison_example"}
+Wikipedia Title: Kurram Garhi
+Kurram Garhi is a small village located near the city of Bannu, which is part of Khyber Pakhtunkhwa province of Pakistan. Its population is approximately 35,000.
+
+Wikipedia Title: Mountain Ranges
+Mountain ranges are found across various continents and countries, each with unique geographical characteristics.
+
+Q: Answer the following question by reasoning step-by-step.
+Are both Kurram Garhi and Trojkrsti located in the same country?
+A: I need to determine the location of both Kurram Garhi and Trojkrsti.
+
+# METADATA: {"qid": "location_comparison_example_step2"}
+Wikipedia Title: Trojkrsti
+Trojkrsti is a village in Municipality of Prilep, Republic of Macedonia. It is situated in the southeastern part of the country.
+
+Q: Continue reasoning step-by-step. ANALYZE the retrieved context carefully - do NOT restate the question. Build logical connections from the information.
+A: From the previous information, I found that Kurram Garhi is located in Pakistan ("part of Khyber Pakhtunkhwa province of Pakistan"). The new context shows that Trojkrsti is located in "Republic of Macedonia." Since Pakistan and Republic of Macedonia are different countries, they are not located in the same country. So the answer is: no.
+
+
+# METADATA: {"qid": "birth_comparison_example"}
+Wikipedia Title: Martin Hodge
+Martin Hodge (born 4 February 1959 in Southport, Lancashire) is an English former professional footballer who played as a goalkeeper.
+
+Wikipedia Title: Sports History
+Sports history encompasses the development and evolution of various athletic pursuits throughout different time periods.
+
+Q: Answer the following question by reasoning step-by-step.
+Who was born first out of Martin Hodge and Ivania Martinich?
+A: I need to find the birth dates of both Martin Hodge and Ivania Martinich.
+
+# METADATA: {"qid": "birth_comparison_example_step2"}
+Wikipedia Title: Ivania Martinich
+Ivania Martinich Soriano (born 25 July 1995) is a Chilean tennis player who has competed in various international tournaments.
+
+Q: Continue reasoning step-by-step. ANALYZE the retrieved context carefully - do NOT restate the question. Build logical connections from the information.
+A: From the previous information, I found that Martin Hodge was born on "4 February 1959." The new context shows that Ivania Martinich was born on "25 July 1995." Comparing these dates: 1959 comes before 1995, so Martin Hodge was born first. So the answer is: Martin Hodge.
+
+
+# METADATA: {"qid": "unanswerable_3hop"}
+Wikipedia Title: TechCorp Industries
+TechCorp Industries is a fictional technology company founded in 2010. The company specializes in software development and has offices in several major cities.
+
+Wikipedia Title: Software Development
+Software development is the process of creating software applications and systems through programming and design.
+
+Q: Answer the following question by reasoning step-by-step.
+What is the birth year of the CEO's spouse of the company that acquired TechCorp Industries?
+A: I need to find which company acquired TechCorp Industries first.
+
+# METADATA: {"qid": "unanswerable_3hop_continue"}
+Wikipedia Title: Business Acquisitions
+Business acquisitions involve one company purchasing another company or its assets for strategic or financial reasons.
+
+Wikipedia Title: Corporate Mergers
+Corporate mergers combine two or more companies into a single entity, often to achieve synergies and market advantages.
+
+Q: Continue reasoning step-by-step. ANALYZE the retrieved context carefully - do NOT restate the question. Build logical connections from the information.
+A: I searched for acquisition information about TechCorp Industries, but the available context does not contain any details about which company acquired it. Without knowing the acquiring company, I cannot proceed to find information about its CEO or the CEO's spouse. So the answer is: I cannot find sufficient information to answer this question.
+
+
+# METADATA: {"qid": "actual_question"}
+{context}
+
+Q: Answer the following question by reasoning step-by-step.
+{question}
+A: 

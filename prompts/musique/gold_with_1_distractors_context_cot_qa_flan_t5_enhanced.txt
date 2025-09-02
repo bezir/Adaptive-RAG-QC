@@ -1,0 +1,106 @@
+# METADATA: {"qid": "2hop__323282_79175"}
+CIMI-FM
+CIMI-FM: French-language radio station, Quebec City, Canada (1997-2010).
+
+Radio Broadcasting
+Radio broadcasting serves Canadian communities.
+
+Quebec Winter Carnival
+Quebec Winter Carnival: annual festival in Quebec City. First large carnival: 1894.
+
+Q: When did the first large winter carnival take place in the city where CIMI-FM is licensed to broadcast?
+A: CIMI-FM licensed in Quebec City. First large winter carnival in Quebec City: 1894. Answer: 1894.
+
+
+# METADATA: {"qid": "2hop__292995_8796"}
+Neville A. Stanton
+Neville A. Stanton: Professor at University of Southampton.
+
+Southampton
+University of Southampton: founded 1862, Royal Charter 1952.
+
+Academic Research
+Academic institutions advance knowledge and science.
+
+Q: When was Neville A. Stanton's employer founded?
+A: Employer: University of Southampton. Founded: 1862. Answer: 1862.
+
+
+# METADATA: {"qid": "4hop3__703974_789671_24078_24137"}
+America-Lite
+America-Lite: How Imperial Academia Dismantled Our Culture by David Gelernter (2012).
+
+Academic Publishing
+Academic publishing: books, journals, institutional publications.
+
+David Gelernter
+David Gelernter: computer science professor at Yale University.
+
+New Haven, Connecticut
+New Haven: Yale University location. Most Zagat-rated restaurants in Connecticut.
+
+Q: What weekly publication in the Connecticut city with the most Zagat rated restaurants is issued by university of America-Lite's author?
+A: Author: David Gelernter. University: Yale. City: New Haven (most Zagat restaurants). Yale weekly: Yale Herald. Answer: Yale Herald.
+
+
+# METADATA: {"qid": "3hop1__858730_386977_851569"}
+Smoke in tha City
+Smoke in tha City: MC Eiht album (2004).
+
+Hip-Hop Music
+Hip-hop: global cultural phenomenon.
+
+MC Eiht
+MC Eiht (Aaron Tyler): rapper from Compton, California.
+
+Compton, California
+Compton: city in Los Angeles County, California.
+
+Q: In which county was the birthplace of the Smoke in tha City performer?
+A: Performer: MC Eiht. Birthplace: Compton. County: Los Angeles County. Answer: Los Angeles County.
+
+
+# METADATA: {"qid": "2hop__387702_20661"}
+Hoora
+Hoora: residential area in Manama, Bahrain.
+
+Middle Eastern Geography
+Middle East: diverse countries with complex histories.
+
+British Empire
+Britain withdrew from Bahrain in 1971 (independence).
+
+Q: When did Britain withdraw from the country containing Hoora?
+A: Hoora in Bahrain. Britain withdrew from Bahrain: 1971. Answer: 1971.
+
+
+# METADATA: {"qid": "2hop__804754_52230"}
+Senate of Kenya
+Senate: upper house of Kenya Parliament (2010 Constitution).
+
+Parliamentary Systems
+Parliamentary systems: various representation structures.
+
+Mau Mau Uprising
+Mau Mau Uprising: Kenya rebellion (1952-1960). Emergency declared: 20 October 1952.
+
+Q: When was the state of emergency declared in the country where the Senate is located?
+A: Senate in Kenya. Emergency in Kenya: 20 October 1952. Answer: 20 October 1952.
+
+
+# METADATA: {"qid": "unanswerable_4hop"}
+Research Universities
+Research universities: focus on research and graduate education.
+
+Academic Institutions
+Academic institutions: education and research centers.
+
+Q: In what city is located the university where the founder of the company that published the journal that featured the paper by Dr. Smith studied?
+A: No specific information about Dr. Smith, paper, journal, company, or founder. Cannot trace connections. Answer: I cannot find sufficient information to answer this question.
+
+
+# METADATA: {"qid": "actual_question"}
+{context}
+
+Q: {question}
+A: 

@@ -1,0 +1,130 @@
+# METADATA: {"qid": "2hop__323282_79175"}
+CIMI-FM
+CIMI-FM was a French-language talk radio station that served Quebec City, Quebec, Canada. The station was licensed to broadcast at 103.7 FM and operated from 1997 to 2010.
+
+Radio Broadcasting
+Radio broadcasting has served communities across Canada, providing news, entertainment, and cultural programming to diverse audiences.
+
+Quebec Winter Carnival
+The Quebec Winter Carnival (French: Carnaval de Québec) is an annual winter festival that takes place in Quebec City. The first large winter carnival took place in 1894, and since then it has become one of the world's largest winter festivals.
+
+Q: Answer the following question by reasoning step-by-step.
+When did the first large winter carnival take place in the city where CIMI-FM is licensed to broadcast?
+A: I need to first identify where CIMI-FM is licensed to broadcast, then find when the first large winter carnival took place in that city. From the context, CIMI-FM "served Quebec City, Quebec, Canada" and was "licensed to broadcast" there. The Quebec Winter Carnival context states that "The first large winter carnival took place in 1894" in Quebec City. Therefore, the first large winter carnival took place in 1894 in the city where CIMI-FM is licensed to broadcast. So the answer is: 1894.
+
+
+# METADATA: {"qid": "2hop__292995_8796"}
+Neville A. Stanton
+Neville A. Stanton is a British Professor of Human Factors and Ergonomics at the University of Southampton. He has published extensively in the field of human factors and is known for his research on driver behavior and vehicle design.
+
+Southampton
+The University of Southampton, which was founded in 1862 and received its Royal Charter as a university in 1952, has over 22,000 students. The university is ranked in the top 100 research universities in the world and is known for its engineering and computer science programs.
+
+Academic Research
+Academic research institutions play crucial roles in advancing knowledge and contributing to technological and scientific progress.
+
+Q: Answer the following question by reasoning step-by-step.
+When was Neville A. Stanton's employer founded?
+A: I need to identify Neville A. Stanton's employer and then find when it was founded. From the context, Neville A. Stanton is "a British Professor of Human Factors and Ergonomics at the University of Southampton," so his employer is the University of Southampton. The context about Southampton states that "The University of Southampton, which was founded in 1862," providing the founding date. Therefore, Neville A. Stanton's employer was founded in 1862. So the answer is: 1862.
+
+
+# METADATA: {"qid": "4hop3__703974_789671_24078_24137"}
+America-Lite
+America-Lite: How Imperial Academia Dismantled Our Culture is a book written by David Gelernter, published in 2012. The book critiques modern American academia and its impact on culture.
+
+Academic Publishing
+Academic publishing encompasses various forms of scholarly communication, including books, journals, and institutional publications.
+
+David Gelernter
+David Hillel Gelernter (born March 5, 1955) is an American artist, writer, and professor of computer science at Yale University. He is known for his work in artificial intelligence and has written several books on technology and culture.
+
+New Haven, Connecticut
+New Haven, Connecticut is home to Yale University and has been recognized by Livability.com as the Best Foodie City in the country, with the most Zagat-rated restaurants per capita of any city in Connecticut.
+
+Q: Answer the following question by reasoning step-by-step.
+What weekly publication in the Connecticut city with the most Zagat rated restaurants is issued by university of America-Lite: How Imperial Academia Dismantled Our Culture's author?
+A: I need to identify the author of "America-Lite," find their university, identify the Connecticut city with the most Zagat-rated restaurants, and then find the weekly publication issued by that university in that city.
+
+From the context: 1) "America-Lite: How Imperial Academia Dismantled Our Culture" was written by David Gelernter. 2) David Gelernter is "a professor of computer science at Yale University." 3) New Haven, Connecticut "has been recognized by Livability.com as the Best Foodie City in the country, with the most Zagat-rated restaurants per capita of any city in Connecticut." 4) New Haven is "home to Yale University."
+
+Since Yale University is located in New Haven (the Connecticut city with the most Zagat-rated restaurants), I need to identify Yale's weekly publication. Yale University's main weekly publication is the Yale Herald, which is the university's student-run weekly newspaper. So the answer is: Yale Herald.
+
+
+# METADATA: {"qid": "3hop1__858730_386977_851569"}
+Smoke in tha City
+Smoke in tha City is the ninth studio album by American rapper MC Eiht, released in 2004. The album features collaborations with various West Coast hip-hop artists.
+
+Hip-Hop Music
+Hip-hop music emerged from urban communities and has become a global cultural phenomenon, influencing music, fashion, and social movements.
+
+MC Eiht
+Aaron Tyler (born May 22, 1971), better known by his stage name MC Eiht, is an American rapper from Compton, California. He rose to prominence in the early 1990s as part of the group Compton's Most Wanted.
+
+Compton, California
+Compton is a city in southern Los Angeles County, California, United States. The city has a rich musical heritage and has been home to many influential hip-hop artists.
+
+Q: Answer the following question by reasoning step-by-step.
+In which county was the birthplace of the Smoke in tha City performer?
+A: I need to identify the performer of "Smoke in tha City," find their birthplace, and then determine which county that birthplace is in.
+
+From the context: 1) "Smoke in tha City is the ninth studio album by American rapper MC Eiht." 2) MC Eiht's real name is "Aaron Tyler" and he is "from Compton, California." 3) "Compton is a city in southern Los Angeles County, California."
+
+Therefore, the performer of "Smoke in tha City" is MC Eiht, whose birthplace is Compton, and Compton is located in Los Angeles County. So the answer is: Los Angeles County.
+
+
+# METADATA: {"qid": "2hop__387702_20661"}
+Hoora
+Hoora (Arabic: الحورة) is a residential area in Manama, the capital city of Bahrain. Along with the Central Business District, Adliya, and Juffair, Hoora is considered one of the main commercial and residential areas of Manama.
+
+Middle Eastern Geography
+Middle Eastern geography encompasses diverse countries and regions with rich histories and complex political relationships.
+
+British Empire
+While the Suez Crisis caused British power in the Middle East to wane, the UK maintained its position in several Gulf states. Britain formally withdrew from Bahrain in 1971, when Bahrain declared independence and joined the United Nations.
+
+Q: Answer the following question by reasoning step-by-step.
+When did Britain withdraw from the country containing Hoora?
+A: I need to identify which country contains Hoora, and then find when Britain withdrew from that country.
+
+From the context: 1) Hoora "is a residential area in Manama, the capital city of Bahrain." 2) The British Empire context states that "Britain formally withdrew from Bahrain in 1971, when Bahrain declared independence."
+
+Therefore, Hoora is located in Bahrain, and Britain withdrew from Bahrain in 1971. So the answer is: 1971.
+
+
+# METADATA: {"qid": "2hop__804754_52230"}
+Senate of Kenya
+The Senate is the upper house of the Parliament of Kenya. It was established under the 2010 Constitution of Kenya and represents the 47 counties of Kenya in the national government.
+
+Parliamentary Systems
+Parliamentary systems around the world employ various structures to represent different constituencies and levels of government.
+
+Mau Mau Uprising
+The Mau Mau Uprising was a rebellion against British colonial rule in Kenya that lasted from 1952 to 1960. On 20 October 1952, Governor Baring signed a declaration of emergency, marking the beginning of intense conflict.
+
+Q: Answer the following question by reasoning step-by-step.
+When was the state of emergency declared in the country where the Senate is located?
+A: I need to identify which country the Senate (mentioned in the context) is located in, and then find when a state of emergency was declared in that country.
+
+From the context: 1) "The Senate is the upper house of the Parliament of Kenya," so the Senate is located in Kenya. 2) The Mau Mau Uprising context states that "On 20 October 1952, Governor Baring signed a declaration of emergency" in Kenya.
+
+Therefore, the Senate is located in Kenya, and the state of emergency was declared in Kenya on 20 October 1952. So the answer is: 20 October 1952.
+
+
+# METADATA: {"qid": "unanswerable_4hop"}
+Research Universities
+Research universities are academic institutions that focus on research and graduate education, contributing significantly to scientific and technological advancement.
+
+Academic Institutions
+Academic institutions provide education and conduct research in various fields, serving as centers of learning and knowledge creation.
+
+Q: Answer the following question by reasoning step-by-step.
+In what city is located the university where the founder of the company that published the journal that featured the paper by Dr. Smith studied?
+A: I need to find information about Dr. Smith's paper, the journal that published it, the company that published that journal, the founder of that company, where the founder studied, and finally the city where that university is located. However, the available context only provides general information about research universities and academic institutions without mentioning any specific Dr. Smith, paper, journal, publishing company, or founder. Without this crucial information, I cannot proceed with the multi-step reasoning required to answer this question. So the answer is: I cannot find sufficient information to answer this question about Dr. Smith's research connections.
+
+
+# METADATA: {"qid": "actual_question"}
+{context}
+
+Q: Answer the following question by reasoning step-by-step.
+{question}
+A: 

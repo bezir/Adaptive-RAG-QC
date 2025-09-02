@@ -1,0 +1,122 @@
+# METADATA: {"qid": "2hop__292995_8796"}
+Wikipedia Title: Life on a Thread
+Life on a Thread (Spanish:La vida en un hilo) is a 1945 Spanish comedy film written, directed and produced by Edgar Neville.
+
+Wikipedia Title: Southampton
+The University of Southampton, which was founded in 1862 and received its Royal Charter as a university in 1952, has over 22,000 students.
+
+Wikipedia Title: Neville A. Stanton
+Neville A. Stanton is a British Professor of Human Factors and Ergonomics at the University of Southampton.
+
+Q: When was Neville A. Stanton's employer founded?
+A: Step 1: Identify employer. Neville A. Stanton works at University of Southampton.
+
+# METADATA: {"qid": "2hop__154225_727337"}
+Wikipedia Title: University of Southampton
+The University of Southampton, which was founded in 1862 and received its Royal Charter as a university in 1952, has over 22,000 students.
+
+Q: Continue reasoning. Analyze context and connect information.
+A: Step 2: Find founding date. University of Southampton founded in 1862. Answer: 1862.
+
+
+# METADATA: {"qid": "2hop__292995_8796_enhanced"}
+Wikipedia Title: Hypocrite (film)
+Hypocrite (Spanish: Hipócrita..!) is a 1949 Mexican thriller film directed by Miguel Morayta.
+
+Wikipedia Title: Science Fiction Films
+Science fiction films have gained popularity in recent years.
+
+Q: When did the director of film Hypocrite (Film) die?
+A: Step 1: Find director. Hypocrite directed by Miguel Morayta.
+
+# METADATA: {"qid": "2hop__292995_8796_enhanced_step2"}
+Wikipedia Title: Miguel Morayta
+Miguel Morayta (15 August 1907 – 19 June 2013) was a Spanish film director and screenwriter.
+
+Q: Continue reasoning. Analyze context and connect information.
+A: Step 2: Find death date. Miguel Morayta died 19 June 2013. Answer: 19 June 2013.
+
+
+# METADATA: {"qid": "comparison_nationality_example"}
+Wikipedia Title: Coolie No. 1 (1995 film)
+Coolie No. 1 is a 1995 Indian Hindi-language comedy film directed by David Dhawan.
+
+Wikipedia Title: The Sensational Trial
+The Sensational Trial is a 1923 German silent film directed by Karl Freund.
+
+Q: Do director of film Coolie No. 1 (1995 Film) and director of film The Sensational Trial have the same nationality?
+A: Step 1: Directors are David Dhawan and Karl Freund.
+
+# METADATA: {"qid": "comparison_nationality_example_step2"}
+Wikipedia Title: David Dhawan
+David Dhawan (born 16 August 1955) is an Indian film director.
+
+Wikipedia Title: Karl Freund
+Karl W. Freund (1890 – 1969) was a German cinematographer and film director.
+
+Q: Continue reasoning. Analyze context and connect information.
+A: Step 2: David Dhawan is Indian, Karl Freund was German. Different nationalities. Answer: no.
+
+
+# METADATA: {"qid": "location_comparison_example"}
+Wikipedia Title: Kurram Garhi
+Kurram Garhi is a village in Khyber Pakhtunkhwa province of Pakistan.
+
+Wikipedia Title: Mountain Ranges
+Mountain ranges are found across various continents and countries.
+
+Q: Are both Kurram Garhi and Trojkrsti located in the same country?
+A: Step 1: Kurram Garhi is in Pakistan.
+
+# METADATA: {"qid": "location_comparison_example_step2"}
+Wikipedia Title: Trojkrsti
+Trojkrsti is a village in Municipality of Prilep, Republic of Macedonia.
+
+Q: Continue reasoning. Analyze context and connect information.
+A: Step 2: Trojkrsti is in Republic of Macedonia. Pakistan ≠ Macedonia. Answer: no.
+
+
+# METADATA: {"qid": "birth_comparison_example"}
+Wikipedia Title: Martin Hodge
+Martin Hodge (born 4 February 1959) is an English former professional footballer.
+
+Wikipedia Title: Sports History
+Sports history encompasses athletic pursuits throughout different time periods.
+
+Q: Who was born first out of Martin Hodge and Ivania Martinich?
+A: Step 1: Martin Hodge born 4 February 1959.
+
+# METADATA: {"qid": "birth_comparison_example_step2"}
+Wikipedia Title: Ivania Martinich
+Ivania Martinich Soriano (born 25 July 1995) is a Chilean tennis player.
+
+Q: Continue reasoning. Analyze context and connect information.
+A: Step 2: Ivania Martinich born 25 July 1995. 1959 < 1995. Answer: Martin Hodge.
+
+
+# METADATA: {"qid": "unanswerable_example"}
+Wikipedia Title: TechCorp Industries
+TechCorp Industries is a technology company founded in 2010, specializing in software development.
+
+Wikipedia Title: Software Development
+Software development creates software applications and systems.
+
+Q: What is the birth year of the CEO's spouse of the company that acquired TechCorp Industries?
+A: Step 1: Need acquiring company information.
+
+# METADATA: {"qid": "unanswerable_example_continue"}
+Wikipedia Title: Business Acquisitions
+Business acquisitions involve purchasing companies or assets.
+
+Wikipedia Title: Corporate Mergers
+Corporate mergers combine companies into single entities.
+
+Q: Continue reasoning. Analyze context and connect information.
+A: Step 2: No acquisition information found. Cannot answer without this data. Answer: I cannot find sufficient information to answer this question.
+
+
+# METADATA: {"qid": "actual_question"}
+{context}
+
+Q: {question}
+A: 

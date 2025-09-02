@@ -1,0 +1,15 @@
+# Copy this file to .env and fill in your API keys
+
+# OpenAI API Key (for GPT models)
+OPENAI_API_KEY=your_openai_api_key_here
+
+# Google API Key (for Gemini models)
+GOOGLE_API_KEY=your_google_api_key_here
+
+# Retrieval server configuration
+RETRIEVER_HOST=http://localhost
+RETRIEVER_PORT=8000
+
+# LLM server configuration (for local models)
+LLM_SERVER_HOST=http://localhost
+LLM_SERVER_PORT=8001 

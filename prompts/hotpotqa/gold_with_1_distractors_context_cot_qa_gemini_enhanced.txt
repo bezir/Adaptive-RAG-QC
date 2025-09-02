@@ -1,0 +1,108 @@
+# METADATA: {"qid": "5a835abe5542996488c2e426"}
+Vertical Limit
+Vertical Limit is a 2000 American survival thriller film directed by Martin Campbell, written by Robert King, and starring Chris O'Donnell, Bill Paxton, Robin Tunney, and Scott Glenn. The film follows a group of climbers who must save trapped mountaineers on K2, one of the world's most dangerous peaks.
+
+Astronaut Training
+Astronaut training involves intensive preparation for space missions, including physical conditioning, technical education, and survival training.
+
+Scott Glenn
+Theodore Scott Glenn (born January 26, 1941) is an American actor. His roles have included Wes Hightower in "Urban Cowboy" (1980), astronaut Alan Shepard in "The Right Stuff" (1983), and Jack Crawford in "The Silence of the Lambs" (1991).
+
+Q: Answer the following question by reasoning step-by-step.
+Vertical Limit stars which actor who also played astronaut Alan Shepard in "The Right Stuff"?
+A: I need to identify which actor from Vertical Limit also played astronaut Alan Shepard in "The Right Stuff." From the context, I can see that Vertical Limit stars Chris O'Donnell, Bill Paxton, Robin Tunney, and Scott Glenn. Looking at the information about Scott Glenn, it states that his roles have included "astronaut Alan Shepard in 'The Right Stuff' (1983)." Therefore, Scott Glenn is the actor who starred in both Vertical Limit and played astronaut Alan Shepard in "The Right Stuff." So the answer is: Scott Glenn.
+
+
+# METADATA: {"qid": "5a89d58755429946c8d6e9d9"}
+The Border Surrender
+The Border Surrender are an English rock band formed in 2007. The band members are Keith Austin (vocals and guitar), Simon Shields (vocals, guitar, bass guitar and mandolin), Johnny Manning (keyboards, melodica, glockenspiel & accordion) and Mark Austin (drums and vocals).
+
+Music History
+Music history encompasses the development and evolution of various musical styles and genres throughout different time periods.
+
+Unsane
+Unsane is an influential noise rock trio that formed in New York City in 1988. The band consists of Chris Spencer (vocals, guitar), Dave Curran (bass), and Vinny Signorelli (drums).
+
+Q: Answer the following question by reasoning step-by-step.
+Does The Border Surrender or Unsane have more members?
+A: I need to count the members of each band. From the context, The Border Surrender has the following members: Keith Austin, Simon Shields, Johnny Manning, and Mark Austin - that's 4 members total. Unsane is described as a "trio" and consists of Chris Spencer, Dave Curran, and Vinny Signorelli - that's 3 members total. Comparing 4 members (The Border Surrender) to 3 members (Unsane), The Border Surrender has more members. So the answer is: The Border Surrender.
+
+
+# METADATA: {"qid": "5add363c5542990dbb2f7dc8"}
+Ryu Hye-young
+Ryu Hye-young (born March 28, 1991) is a South Korean actress. She is best known for her role as Sung Bo-ra in the hit drama series "Reply 1988" (2015-2016).
+
+Television Industry
+The television industry has produced numerous acclaimed series that have gained international recognition and cultural impact.
+
+Reply 1988
+Reply 1988 () is a South Korean television series starring Lee Hye-ri, Park Bo-gum, Go Kyung-pyo, Ryu Jun-yeol, and Ryu Hye-young. The series aired for 20 episodes from November 6, 2015, to January 16, 2016, and became one of the highest-rated Korean dramas in cable television history.
+
+Q: Answer the following question by reasoning step-by-step.
+How many episodes were in the South Korean television series in which Ryu Hye-young played Bo-ra?
+A: I need to identify which South Korean television series Ryu Hye-young played Bo-ra in, then find how many episodes it had. From the context, I can see that Ryu Hye-young "is best known for her role as Sung Bo-ra in the hit drama series 'Reply 1988' (2015-2016)." The context for Reply 1988 confirms that "The series aired for 20 episodes from November 6, 2015, to January 16, 2016." Therefore, the series in which Ryu Hye-young played Bo-ra had 20 episodes. So the answer is: 20.
+
+
+# METADATA: {"qid": "5a790e7855429970f5fffe3d"}
+Jan de Bont
+Jan de Bont (born 22 October 1943) is a Dutch cinematographer, director and film producer. He is best known for directing action films such as "Speed" (1994) and "Twister" (1996).
+
+Film Industry
+The film industry has seen numerous talented directors and cinematographers who have shaped modern cinema through their innovative techniques.
+
+Raoul Walsh
+Raoul A. Walsh (March 11, 1887 – December 31, 1980) was an American film director, actor, founding member of the Academy of Motion Picture Arts and Sciences (AMPAS) and the brother of the silent screen actor George Walsh. He was known for his adventurous films and directing career that spanned over five decades.
+
+Q: Answer the following question by reasoning step-by-step.
+Who was born first? Jan de Bont or Raoul Walsh?
+A: I need to compare the birth dates of Jan de Bont and Raoul Walsh. From the context, Jan de Bont was "born 22 October 1943" and Raoul Walsh was born on "March 11, 1887." Comparing these dates: 1887 comes before 1943, so Raoul Walsh was born earlier. Therefore, Raoul Walsh was born first. So the answer is: Raoul Walsh.
+
+
+# METADATA: {"qid": "5ac52e1b5542994611c8b3f4"}
+Cambodia
+Cambodia ( ; Khmer: កម្ពុជា , or Kampuchea ] ), officially known as the Kingdom of Cambodia (Khmer: ព្រះរាជាណាចក្រកម្ពុជា ), is a country located in the southern portion of the Indochina peninsula in Southeast Asia.
+
+Asian Geography
+Asian geography encompasses diverse landscapes, cultures, and political entities across the world's largest continent.
+
+National Route 13 (Vietnam)
+National Route 13 (Vietnamese: "Quốc lộ 13" ) is a highway in southern Vietnam stretching from the northeastern outskirts of Ho Chi Minh City, the commercial centre of the country, towards the border to Cambodia.
+
+Q: Answer the following question by reasoning step-by-step.
+What is known as the Kingdom and has National Route 13 stretching towards its border?
+A: I need to identify what is known as "the Kingdom" and has National Route 13 stretching towards its border. From the context, Cambodia is "officially known as the Kingdom of Cambodia." The context about National Route 13 states that it is "a highway in southern Vietnam stretching from the northeastern outskirts of Ho Chi Minh City...towards the border to Cambodia." This shows that National Route 13 stretches towards Cambodia's border, and Cambodia is officially known as "the Kingdom." So the answer is: Cambodia.
+
+
+# METADATA: {"qid": "5a89c14f5542993b751ca98a"}
+Hot Hot Heat
+Hot Hot Heat was a Canadian indie rock band formed in 1999 in Victoria, British Columbia. The band was signed by Seattle label Sub Pop in 2001 and released its first EP, "Knock Knock Knock", and first full-length album, "Make Up the Breakdown", the following year.
+
+Music Industry
+The music industry has seen countless bands debut with various album titles that reflect their artistic vision and musical style.
+
+The Operation M.D.
+The Operation M.D. (formerly The Operation) was a Canadian punk rock band created by doctors Dr. Dynamite (Jason McCaslin of Sum 41) and Dr. Rocco (Todd Morse of H2O) as a side project to their respective bands. The band's debut album "We Have an Emergency" was released in February 2007 by Aquarius Records.
+
+Q: Answer the following question by reasoning step-by-step.
+Which of the following had a debut album entitled "We Have an Emergency": Hot Hot Heat or The Operation M.D.?
+A: I need to identify which band had a debut album called "We Have an Emergency." From the context, Hot Hot Heat's "first full-length album" was called "Make Up the Breakdown," not "We Have an Emergency." The Operation M.D.'s context states that "The band's debut album 'We Have an Emergency' was released in February 2007." Therefore, The Operation M.D. is the band that had a debut album entitled "We Have an Emergency." So the answer is: The Operation M.D.
+
+
+# METADATA: {"qid": "unanswerable_hotpot_example"}
+Jeremy Theobald
+Jeremy Theobald is a British actor best known for his portrayal of "The Young Man", the main character in Christopher Nolan's debut film "Following" (1998).
+
+Film Production
+Film production involves many talented individuals working together to create compelling stories for audiences worldwide.
+
+Q: Answer the following question by reasoning step-by-step.
+What is the birth year of Jeremy Theobald's spouse?
+A: I need to find information about Jeremy Theobald's spouse and their birth year. However, the available context only provides information about Jeremy Theobald's professional work as an actor, specifically his role in Christopher Nolan's "Following." There is no information provided about his personal life, spouse, or any related birth years. Without this crucial information, I cannot answer the question about his spouse's birth year. So the answer is: I cannot find sufficient information to answer this question.
+
+
+# METADATA: {"qid": "actual_question"}
+{context}
+
+Q: Answer the following question by reasoning step-by-step.
+{question}
+A: 

@@ -1,0 +1,100 @@
+# METADATA: {"qid": "5a835abe5542996488c2e426"}
+Vertical Limit
+Vertical Limit is a 2000 American survival thriller film starring Chris O'Donnell, Bill Paxton, Robin Tunney, and Scott Glenn.
+
+Astronaut Training
+Astronaut training involves preparation for space missions.
+
+Scott Glenn
+Theodore Scott Glenn (born 1941) is an American actor. Roles include astronaut Alan Shepard in "The Right Stuff" (1983).
+
+Q: Vertical Limit stars which actor who also played astronaut Alan Shepard in "The Right Stuff"?
+A: Vertical Limit stars: Chris O'Donnell, Bill Paxton, Robin Tunney, Scott Glenn. Scott Glenn played astronaut Alan Shepard in "The Right Stuff". Answer: Scott Glenn.
+
+
+# METADATA: {"qid": "5a89d58755429946c8d6e9d9"}
+The Border Surrender
+The Border Surrender: English rock band. Members: Keith Austin, Simon Shields, Johnny Manning, Mark Austin (4 total).
+
+Music History
+Music encompasses various styles throughout different periods.
+
+Unsane
+Unsane: noise rock trio from New York (1988). Members: Chris Spencer, Dave Curran, Vinny Signorelli (3 total).
+
+Q: Does The Border Surrender or Unsane have more members?
+A: The Border Surrender: 4 members. Unsane: 3 members. 4 > 3. Answer: The Border Surrender.
+
+
+# METADATA: {"qid": "5add363c5542990dbb2f7dc8"}
+Ryu Hye-young
+Ryu Hye-young (born 1991): South Korean actress. Known for role as Bo-ra in "Reply 1988".
+
+Television Industry
+Television produces acclaimed series with international recognition.
+
+Reply 1988
+Reply 1988: South Korean series. Aired 20 episodes (November 2015 - January 2016).
+
+Q: How many episodes were in the South Korean television series in which Ryu Hye-young played Bo-ra?
+A: Ryu Hye-young played Bo-ra in "Reply 1988". Reply 1988 had 20 episodes. Answer: 20.
+
+
+# METADATA: {"qid": "5a790e7855429970f5fffe3d"}
+Jan de Bont
+Jan de Bont (born 22 October 1943): Dutch cinematographer, director.
+
+Film Industry
+Film industry features talented directors and cinematographers.
+
+Raoul Walsh
+Raoul Walsh (March 11, 1887 – December 31, 1980): American film director.
+
+Q: Who was born first? Jan de Bont or Raoul Walsh?
+A: Jan de Bont: 1943. Raoul Walsh: 1887. 1887 < 1943. Answer: Raoul Walsh.
+
+
+# METADATA: {"qid": "5ac52e1b5542994611c8b3f4"}
+Cambodia
+Cambodia: officially Kingdom of Cambodia. Country in Southeast Asia.
+
+Asian Geography
+Asian geography: diverse landscapes and political entities.
+
+National Route 13 (Vietnam)
+National Route 13: highway in Vietnam stretching towards Cambodia border.
+
+Q: What is known as the Kingdom and has National Route 13 stretching towards its border?
+A: Cambodia = "Kingdom of Cambodia". National Route 13 stretches towards Cambodia border. Answer: Cambodia.
+
+
+# METADATA: {"qid": "5a89c14f5542993b751ca98a"}
+Hot Hot Heat
+Hot Hot Heat: Canadian indie rock band. First album: "Make Up the Breakdown".
+
+Music Industry
+Music industry: bands with various album titles.
+
+The Operation M.D.
+The Operation M.D.: Canadian punk band. Debut album: "We Have an Emergency" (2007).
+
+Q: Which had a debut album entitled "We Have an Emergency": Hot Hot Heat or The Operation M.D.?
+A: Hot Hot Heat debut: "Make Up the Breakdown". The Operation M.D. debut: "We Have an Emergency". Answer: The Operation M.D.
+
+
+# METADATA: {"qid": "unanswerable_hotpot_example"}
+Jeremy Theobald
+Jeremy Theobald: British actor. Known for "Following" (1998).
+
+Film Production
+Film production: individuals creating stories.
+
+Q: What is the birth year of Jeremy Theobald's spouse?
+A: No spouse information provided in context. Cannot determine birth year. Answer: I cannot find sufficient information to answer this question.
+
+
+# METADATA: {"qid": "actual_question"}
+{context}
+
+Q: {question}
+A: 
