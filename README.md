@@ -2,7 +2,7 @@
 
 ![Adaptive RAG Framework](diagram.png)
 
-Official implementation for **"Rethinking Query Complexity for Adaptive RAG: Architectural Comparison and Beyond"** by Abdullah Bezir (2025).
+Official implementation for **"Rethinking Query Complexity for Adaptive RAG: Architectural Comparison and Beyond"**
 
 This repository extends the original [Adaptive-RAG](https://arxiv.org/pdf/2403.14403.pdf) framework with methodological and architectural evaluations, including an optimized labeling strategy and detailed comparison of encoder-only, encoder-decoder, and decoder-only architectures for query complexity classification.
 
