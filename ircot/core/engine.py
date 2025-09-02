@@ -16,12 +16,12 @@ import sys
 project_root = Path(__file__).parent.parent.parent
 sys.path.insert(0, str(project_root))
 
-from robust_ircot.core.state import IRCoTState
-from robust_ircot.prompting.builder import PromptBuilder
-from robust_ircot.retrieval.elasticsearch import ElasticsearchRetriever
-from robust_ircot.reasoning.generator import ReasoningGenerator
-from robust_ircot.reasoning.termination import TerminationChecker
-from robust_ircot.reasoning.parser import AnswerParser
+from ircot.core.state import IRCoTState
+from ircot.prompting.builder import PromptBuilder
+from ircot.retrieval.elasticsearch import ElasticsearchRetriever
+from ircot.reasoning.generator import ReasoningGenerator
+from ircot.reasoning.termination import TerminationChecker
+from ircot.reasoning.parser import AnswerParser
 
 
 class RobustIRCoT:

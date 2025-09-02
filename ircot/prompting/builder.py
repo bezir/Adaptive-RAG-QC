@@ -14,8 +14,8 @@ from typing import Dict, Any, List, Optional
 from pathlib import Path
 import random
 
-from robust_ircot.core.state import IRCoTState
-from robust_ircot.prompting.examples import IRCoTExampleBank
+from ircot.core.state import IRCoTState
+from ircot.prompting.examples import IRCoTExampleBank
 
 
 class PromptBuilder:

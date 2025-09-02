@@ -28,8 +28,12 @@ project_root = Path(__file__).parent.parent.parent
 sys.path.insert(0, str(project_root))
 
 
-from robust_ircot.core.engine import RobustIRCoT
-ROBUST_IRCOT_AVAILABLE = True
+try:
+    from ircot.core.engine import RobustIRCoT
+    ROBUST_IRCOT_AVAILABLE = True
+except ImportError as e:
+    RobustIRCoT = None
+    ROBUST_IRCOT_AVAILABLE = False
 
 # Import benchmark IRCoT components (fallback)
 

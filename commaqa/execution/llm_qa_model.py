@@ -1,8 +1,6 @@
 import json
 import re
 
-from commaqa.inference.prompt_reader import read_prompt
-from commaqa.models.gpt3generator import GPT3Generator
 from commaqa.models.llm_client_generator import LLMClientGenerator
 from commaqa.models.gemini_generator import GeminiGenerator
 

@@ -148,7 +148,7 @@ logger = logging.getLogger(__name__)
 
 # Now import RobustIRCoT after logger is defined
 try:
-    from robust_ircot.core.engine import RobustIRCoT
+    from ircot.core.engine import RobustIRCoT
     ROBUST_IRCOT_AVAILABLE = True
     logger.info("✅ RobustIRCoT engine is available")
 except ImportError as e:
@@ -170,6 +170,12 @@ class LLMClassifier:
         self.model = model
         self.workers = workers
         self.is_gemini = self._is_gemini_model(model)
+        
+        # Store API key explicitly to avoid environment variable issues in threads
+        self.api_key = os.environ.get('GOOGLE_API_KEY')
+        if self._is_gemini_model(self.model) and not self.api_key:
+            raise ValueError("GOOGLE_API_KEY environment variable must be set for Gemini models")
+        
         self.classification_stats = {
             'total_classifications': 0,
             'A_classifications': 0,
@@ -257,7 +263,7 @@ Classification:"""
             if self._is_gemini_model(self.model):
                 # Use Gemini API
                 import google.generativeai as genai
-                genai.configure(api_key=os.environ.get('GOOGLE_API_KEY'))
+                genai.configure(api_key=self.api_key)
                 model = genai.GenerativeModel(self.model)
                 response = model.generate_content(
                     prompt,
@@ -637,6 +643,12 @@ class ClassificationVerifier:
         self.model = model
         self.workers = workers
         self.is_gemini = self._is_gemini_model(model)
+        
+        # Store API key explicitly to avoid environment variable issues in threads
+        self.api_key = os.environ.get('GOOGLE_API_KEY')
+        if self._is_gemini_model(self.model) and not self.api_key:
+            raise ValueError("GOOGLE_API_KEY environment variable must be set for Gemini models")
+        
         self.verification_stats = {
             'A_to_B_upgrades': 0,
             'A_to_C_upgrades': 0,
@@ -765,7 +777,7 @@ Answer with SINGLE_HOP or MULTI_HOP:"""
                     import google.generativeai as genai
                     
                     def _call_gemini_with_timeout():
-                        genai.configure(api_key=os.environ.get('GOOGLE_API_KEY'))
+                        genai.configure(api_key=self.api_key)
                         model = genai.GenerativeModel(self.model)
                         response = model.generate_content(
                             prompt,
@@ -1107,6 +1119,12 @@ class ParallelQueryProcessor:
         self.server_manager = server_manager
         self.is_gemini = model.startswith('gemini')  # Keep for backward compatibility
         self.uses_api = self._is_gemini_model(model)  # For now, only Gemini uses API directly
+        
+        # Store API key explicitly to avoid environment variable issues in threads
+        self.api_key = os.environ.get('GOOGLE_API_KEY')
+        if self._is_gemini_model(self.model) and not self.api_key:
+            raise ValueError("GOOGLE_API_KEY environment variable must be set for Gemini models")
+        
         self.results = {}
         self.progress_lock = threading.Lock()
         self.queries_processed = 0
@@ -1432,7 +1450,7 @@ class ParallelQueryProcessor:
         try:
             if self._is_gemini_model(self.model):
                 import google.generativeai as genai
-                genai.configure(api_key=os.environ.get('GOOGLE_API_KEY'))
+                genai.configure(api_key=self.api_key)
                 model = genai.GenerativeModel(self.model)
                 response = model.generate_content(prompt)
                 answer = response.text.strip()
@@ -3191,7 +3209,7 @@ def calculate_exact_match(prediction: str, ground_truths: List[str]) -> bool:
     return False
 
 @retry_with_backoff(max_retries=2, base_delay=1.0, max_delay=10.0)
-def calculate_llm_accuracy(prediction: str, ground_truths: List[str], question: str = "", model_name: str = "gemini-2.5-flash-lite") -> bool:
+def calculate_llm_accuracy(prediction: str, ground_truths: List[str], question: str = "", model_name: str = "gemini-2.5-flash-lite", api_key: str = None) -> bool:
     """
     Check if prediction is correct using LLM synthetic check with question context.
     This provides better semantic alignment by including the original question.
@@ -3201,14 +3219,17 @@ def calculate_llm_accuracy(prediction: str, ground_truths: List[str], question: 
         ground_truths: List of acceptable ground truth answers
         question: The original question for context
         model_name: LLM model to use for checking (default: gemini-2.5-flash-lite)
+        api_key: Google API key (if not provided, will try to get from environment)
     
     Returns:
         bool: True if LLM determines the answer is correct
     """
     import google.generativeai as genai
     
-    # Configure Gemini API
-    genai.configure(api_key=os.environ.get('GOOGLE_API_KEY'))
+    # Configure Gemini API - use provided key or fallback to environment
+    if not api_key:
+        api_key = os.environ.get('GOOGLE_API_KEY')
+    genai.configure(api_key=api_key)
     model = genai.GenerativeModel(model_name)
     
     # Create improved prompt with question context
@@ -3264,14 +3285,14 @@ def calculate_accuracy_contains(prediction: str, ground_truths: List[str]) -> bo
             return True
     return False
 
-def batch_calculate_llm_accuracy(prediction_question_answer_tuples: List[Tuple[str, str, List[str]]], workers: List[WorkerConfig]) -> List[bool]:
+def batch_calculate_llm_accuracy(prediction_question_answer_tuples: List[Tuple[str, str, List[str]]], workers: List[WorkerConfig], api_key: str = None) -> List[bool]:
     """Calculate LLM accuracy for multiple prediction-question-answer tuples in parallel with question context"""
     if not workers or not prediction_question_answer_tuples:
         return [False] * len(prediction_question_answer_tuples)
     
     def calculate_single_accuracy(tuple_data):
         prediction, question, gold_answers = tuple_data
-        return calculate_llm_accuracy(prediction, gold_answers, question)
+        return calculate_llm_accuracy(prediction, gold_answers, question, api_key=api_key)
     
     # Use ThreadPoolExecutor with the same number of workers
     max_workers = min(len(workers), len(prediction_question_answer_tuples))
@@ -3310,7 +3331,7 @@ def batch_calculate_llm_accuracy(prediction_question_answer_tuples: List[Tuple[s
     
     return results
 
-def evaluate_predictions(predictions: Dict[str, Any], queries: List[Dict], use_llm_accuracy: bool = True, workers: List[WorkerConfig] = None) -> Dict[str, float]:
+def evaluate_predictions(predictions: Dict[str, Any], queries: List[Dict], use_llm_accuracy: bool = True, workers: List[WorkerConfig] = None, api_key: str = None) -> Dict[str, float]:
     """Evaluate predictions against ground truth answers using F1, EM, Accuracy, and Steps metrics
     
     Args:
@@ -3415,10 +3436,10 @@ def evaluate_predictions(predictions: Dict[str, Any], queries: List[Dict], use_l
     llm_accuracy_results = []
     if use_llm_accuracy and workers:
         print(f"Running parallel LLM accuracy checks with {len(workers)} workers...")
-        llm_accuracy_results = batch_calculate_llm_accuracy(prediction_question_answer_tuples, workers)
+        llm_accuracy_results = batch_calculate_llm_accuracy(prediction_question_answer_tuples, workers, api_key=api_key)
     elif use_llm_accuracy:
         print(f"WARNING: No workers provided - falling back to sequential LLM accuracy checks")
-        llm_accuracy_results = [calculate_llm_accuracy(pred, ans, question) for pred, question, ans in 
+        llm_accuracy_results = [calculate_llm_accuracy(pred, ans, question, api_key=api_key) for pred, question, ans in 
                                tqdm(prediction_question_answer_tuples, desc="LLM accuracy checks", ncols=80)]
     
     # Process all predictions with pre-computed accuracy results
@@ -3737,7 +3758,7 @@ def main():
         # Evaluate predictions
         eval_start_time = time.time()
         print(f"\nEvaluating predictions...")
-        evaluation_results = evaluate_predictions(predictions, queries, use_llm_accuracy=True, workers=workers)
+        evaluation_results = evaluate_predictions(predictions, queries, use_llm_accuracy=True, workers=workers, api_key=os.environ.get('GOOGLE_API_KEY'))
         eval_time = time.time() - eval_start_time
         print(f"Evaluation completed ({eval_time:.1f}s)")
         

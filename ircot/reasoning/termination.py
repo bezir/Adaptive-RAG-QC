@@ -12,7 +12,7 @@ This module provides:
 import re
 import logging
 from typing import Tuple, Optional
-from robust_ircot.core.state import IRCoTState
+from ircot.core.state import IRCoTState
 
 
 class TerminationChecker:
